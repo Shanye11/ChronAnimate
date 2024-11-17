@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+     
+        header {
+            background-color: #111;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .home-icon {
+            display: flex;
+            align-items: center;
+            color: #6cd90b;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        .home-icon img {
+            width: 30px;
+            height: 60px;
+            margin-right: 5px;
+        }
+
+        header h1 {
+            color: #6cd90b;
+            font-size: 2em;
+        }
+
+        header img {
+            height: 60px;
+        }
+
+     
+        .content {
+            background-color: #444;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .content h2 {
+            color: #6cd90b;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            color: #ccc;
+            margin: 10px 0;
+            font-size: 1em;
+        }
+
+        .content a {
+            color: #6cd90b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+       
+        .video-placeholder {
+            background-color: #222;
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .video-placeholder::before {
+            content: '▶';
+            font-size: 50px;
+            color: #ccc;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #111;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .nav-item {
+            text-align: center;
+            color: #ccc;
+        }
+
+        .nav-item img {
+            width: 40px;
+            height: 95px;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        .nav-item p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <a href="#" class="home-icon">
+            <img src="Untitled268_20241103210708.png" alt="Home">
+            <span>Home</span>
+        </a>
+        <h1>YouTube <strong>Tutorials</strong></h1>
+        <img src="Untitled268_20241103210703.png" alt="Logo" width="40" height="76">
+    </header>
+
+    
+    <div class="content">
+        <h2>Welcome to my website</h2>
+        <p>I will be teaching you how to Animate using various sources and I will teach you how to create your own YouTube content. Click below to see more:</p>
+        <p>Visit my <a href="#">YouTube Channel</a> for lesson videos.</p>
+        
+       
+        <div class="video-placeholder">&nbsp;</div>
+</div>
+
+   
+    <div class="nav">
+        <div class="nav-item">
+          <img src="Untitled268_20241103210711.png" alt="Videos">
+            <p>Videos</p>
+        </div>
+        <div class="nav-item">
+          <img src="Untitled268_20241103210716.png" alt="About">
+            <p>About</p>
+        </div>
+        <div class="nav-item">
+          <img src="Untitled268_20241103210720.png" alt="Tutorials">
+            <p>Tutorials</p>
+        </div>
+    </div>
+
+</body>
+</html>
