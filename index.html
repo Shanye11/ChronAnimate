@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script src="file:///D|/github/Project-site/script.js"></script>
-	<script src="file:///D|/github/AnimationSite/script.js"></script>
-	<link rel="stylesheet" href="file:///D|/github/AnimationSite/style.css">
+    <script src="file:///D|/github/Project-site/script.js"></script>
+    <script src="file:///D|/github/AnimationSite/script.js"></script>
+    <link rel="stylesheet" href="file:///D|/github/AnimationSite/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>Home | Chron</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="file:///D|/github/Youtube-Animation/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -16,9 +16,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-body {
-    cursor: url('file:///D|/github/AnimationSite/images/custom-cursor.png') , auto;
-}
 
         body {
             font-family: 'Roboto', sans-serif;
@@ -29,7 +26,7 @@ body {
             align-items: center;
             min-height: 100vh;
             overflow-x: hidden;
-            background-color: #2c2c2c; /* Dark background */
+            background-color: #2c2c2c;
         }
 
         .main-content {
@@ -113,7 +110,6 @@ body {
             animation: fadeIn 2s ease;
         }
 
-        /* Animations */
         @keyframes slideUp {
             0% { transform: translateY(20px); opacity: 0; }
             100% { transform: translateY(0); opacity: 1; }
@@ -124,7 +120,6 @@ body {
             100% { opacity: 1; }
         }
 
-        /* Sidebar */
         .sidebar {
             background-color: #3B3B3B;
             padding: 20px;
@@ -159,6 +154,20 @@ body {
             font-size: 0.9em;
             margin-top: 40px;
         }
+
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
     </style>
 </head>
 <body>
@@ -166,11 +175,11 @@ body {
         <header class="header">
             <img src="images/whitechron.png" alt="Logo" class="logo">
             <nav class="navbar">
-                <a href="index.html">Home <i class="fas fa-home"></i></a>
                 <a href="products.html">Products <i class="fas fa-video"></i></a>
                 <a href="Lessons.html">Lessons <i class="fas fa-chalkboard-teacher"></i></a>
                 <a href="about.html">About Me <i class="fas fa-user"></i></a>
                 <a href="contact.html">Contact <i class="fas fa-envelope"></i></a>
+                <a href="game.html">Merch <i class="fas fa-shop"></i></a>
             </nav>
         </header>
 
@@ -180,14 +189,19 @@ body {
                 <p>Step into the world of animation! Learn how to craft beautiful 2D animations and build your own YouTube empire. Let's make your creative journey unforgettable!</p>
             </section>
 
+            <section class="video-container">
+                <h2>Watch Our Intro Video!</h2>
+				<h4>video below will be replaced in final website</h4>
+                <video controls>
+                    <source src="images/testvid.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
             <aside class="sidebar">
                 <div class="socials">
                     <h2>Connect with Me!</h2>
-                    <a href="https://www.instagram.com/shanye_t11/profilecard/?igsh=MTNoOXp4Nm5kZ2Vubg==
-
-https://youtube.com/@chronicles_team?si=51BXcBBN-LT6Atio
-
-https://www.tiktok.com/@chronicles_artz?_t=8rNYrD13vm3&_r=1" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/shanye_t11/profilecard/?igsh=MTNoOXp4Nm5kZ2Vubg==" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@chronicles_team" target="_blank" class="icon"><i class="fab fa-youtube"></i></a>
                     <a href="https://www.tiktok.com/@chronicles_artz?_t=8rNYrD13vm3&_r=1" target="_blank" class="icon"><i class="fab fa-tiktok"></i></a>
                     <a href="https://github.com/Shanye11" target="_blank" class="icon"><i class="fab fa-github"></i></a>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="file:///D|/github/Project-site/script.js"></script>
+    <script src="file:///D|/github/AnimationSite/script.js"></script>
+    <link rel="stylesheet" href="file:///D|/github/AnimationSite/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Disclaimer | Chron</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="file:///D|/github/Youtube-Animation/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-color: #2c2c2c;
+        }
+
+        .main-content {
+            max-width: 900px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header {
+            position: relative;
+            padding: 50px 0;
+            text-align: center;
+            color: #59FF00;
+        }
+
+        .logo {
+            width: 180px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+            gap: 20px; 
+            margin-top: 20px;
+            z-index: 1;
+            background-color: #3B3B3B;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: #59FF00;
+            text-decoration: none;
+            font-weight: bold;
+            position: relative;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #00A403;
+            text-decoration: underline;
+        }
+
+        .navbar a i {
+            display: block;
+            font-size: 1.2em;
+            margin-top: 5px;
+            color: #59FF00;
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 8px;
+            color: #59FF00;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 30px;
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            color: #59FF00;
+            margin-bottom: 15px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeIn 2s ease;
+        }
+
+        .disclaimer {
+            background-color: #1a1a1a;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 30px;
+        }
+
+        .disclaimer h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ff5050;
+        }
+
+        .disclaimer p {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #59FF00;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <header class="header">
+            <img src="images/whitechron.png" alt="Logo" class="logo">
+            <nav class="navbar">
+                <a href="index.html">Home <i class="fas fa-home"></i></a>
+                <a href="products.html">Products <i class="fas fa-video"></i></a>
+                <a href="Lessons.html">Lessons <i class="fas fa-chalkboard-teacher"></i></a>
+                <a href="about.html">About Me <i class="fas fa-user"></i></a>
+                <a href="contact.html">Contact <i class="fas fa-envelope"></i></a>
+                <a href="Merch.html">Merch <i class="fas fa-shop"></i></a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <h1>Disclaimer</h1>
+            <p><strong>None of the products listed for sale are real. They are part of a mock-up site used for testing and demonstration purposes.</strong></p>
+            <div class="disclaimer">
+                <h2>Important Notice:</h2>
+                <p>All items listed for sale here are not available for actual purchase. This website is used to showcase merchandise and is not an actual e-commerce platform. No financial transactions will be processed, and no orders will be fulfilled. Please do not enter any personal or payment information, as this site is for educational and testing purposes only.</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>© 2024 Chron | All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
